@@ -1,6 +1,7 @@
 nav .nav-link {
   color: #666;
   line-height: 30px;
+  font-size: 14px;
 }
 
 nav .nav-link:hover,

@@ -10,10 +10,6 @@ function Header() {
     <nav className="navbar navbar-expand-lg py-3">
       <div className="container">
         <a className="navbar-brand me-1 me-xl-5" href="#"><img className="me-0 me-xl-5"  src={logo}></img></a>
-          <form className="d-none d-lg-flex" role="search">
-            <input className="form-control ps-5 pe-3 py-0 rounded-pill border-0 text-white me-2 position-relative" 
-            type="search" placeholder="Type Something" aria-label="Search" />
-          </form>
         <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <i className="bi bi-list text-white"></i>

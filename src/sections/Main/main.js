@@ -1,11 +1,12 @@
 import "./main.css";
-import {PageContent, MainButton, Wedget} from "../../components/index";
+import { MainButton, Wedget } from "../../components/index";
+import { Container } from "../index";
 
 function Main() {
   return(
     <main>
       <div className="container">
-        <PageContent>
+        <Container>
           <div className="main-banner rounded-5">
             <div className="row">
               <div className="col-md-9 col-lg-7">
@@ -20,7 +21,7 @@ function Main() {
               
             </div>
           </Wedget>
-        </PageContent>
+        </Container>
       </div>
     </main>
   );
