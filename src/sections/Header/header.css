@@ -1,0 +1,43 @@
+@import url(../../master.css);
+
+nav {
+  background: var(--dark-gray);
+}
+
+nav .form-control,
+nav .form-control:focus {
+  height: 48px;
+  line-height: 48px;
+  background: var(--light-gray);
+}
+
+nav .navbar-toggler {
+  box-shadow: none !important;
+}
+
+nav .form-control::before {
+  content: "\F52A";
+  font-family: "Bootstrap Icons";
+  color: #666;
+  position: absolute;
+}
+
+nav .profile img {
+  width: 30px;
+  display: none;
+}
+
+@media (min-width: 992px) {
+  nav .profile img {
+    display: inline;
+  }
+  
+  nav .profile {
+    background: var(--light-gray);
+  }
+  
+  nav .profile:hover {
+    background: var(--pink);
+    color: #fff !important;
+  }
+}

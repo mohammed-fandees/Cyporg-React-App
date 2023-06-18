@@ -1,0 +1,16 @@
+.main-banner {
+  padding: 80px 60px;
+  background: url(../../assets/imgs/banner-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-banner h4 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.main-banner h4 span {
+  color: var(--pink) ;
+}
+

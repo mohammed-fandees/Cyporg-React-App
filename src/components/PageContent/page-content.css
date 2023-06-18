@@ -1,0 +1,15 @@
+@import url(../../../master.css);
+
+.page-content {
+  background: var(--light-gray);
+  padding: 30px;
+}
+
+@media (min-width: 768px) {
+  .page-content {
+    padding: 60px;
+  }
+  
+}
+
+
