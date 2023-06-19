@@ -1,6 +1,6 @@
 import "./main.css";
-import { MainButton, Wedget } from "../../components/index";
-import { Container } from "../index";
+import { MainButton } from "../../components/index";
+import { Container, MostPopular } from "../index";
 
 function Main() {
   return(
@@ -16,11 +16,9 @@ function Main() {
               </div>
             </div>
           </div>
-          <Wedget customClass="most-popular" titleSpanOne="Most Popular" titleSpanTwo="Right Now">
-            <div className="row">
-              
-            </div>
-          </Wedget>
+          <MostPopular>
+
+          </MostPopular>
         </Container>
       </div>
     </main>
