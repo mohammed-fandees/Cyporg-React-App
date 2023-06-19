@@ -1,13 +1,19 @@
 .main-banner {
-  padding: 80px 60px;
+  padding: calc(var(--padding-extra) / 2) calc(var(--padding-primary) / 2);
   background: url(../../assets/imgs/banner-bg.jpg);
   background-size: cover;
   background-position: center;
 }
 
+@media (min-width: 768px) {
+  .main-banner {
+    padding: var(--padding-extra) var(--padding-primary);
+  }
+}
+
 .main-banner h4 {
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .main-banner h4 span {
