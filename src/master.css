@@ -4,16 +4,13 @@
   --dark-gray: #1f2122;
   --light-gray: #27292a;
   --pink: #ec6090;
+  --padding-primary: 60px;
+  --padding-extra: 80px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--dark-gray);
-}
-
-::placeholder {
-  color: #666666 !important;
-  font-size: 15px !important;
 }
 
 a {
