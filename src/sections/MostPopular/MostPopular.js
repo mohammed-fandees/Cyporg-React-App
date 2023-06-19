@@ -1,5 +1,5 @@
 import "./most-popular.css";
-import { Card } from "../index";
+import { Card, SectionHeader } from "../index";
 
 // Images
 import img1 from "../../assets/imgs/popular-01.jpg";
@@ -15,12 +15,7 @@ import img8 from "../../assets/imgs/popular-08.jpg";
 export default function MonstPopular(props) {
   return(
     <div className="section-wrapper rounded-5 mt-5">
-      <div className="section-header mb-4">
-        <h4 className="fs-2 fw-bolder">
-          <span className="text-decoration-underline">Most Popular </span>
-          <em className="text-decoration-none">Right Now</em>
-        </h4>
-      </div>
+     <SectionHeader span="Most Popular" em="Right Now" />
       <div className="row popular-items">
        <Card name="fortnite" type="sandbox" rate="4.8" downloads="2.3" img={img1}></Card>
        <Card name="pubg" type="battle-X" rate="4.6" downloads="1.8" img={img2}></Card>

@@ -4,11 +4,6 @@
   color: #fff;
 }
 
-.section-header h4 em {
-  font-style: normal;
-  color: var(--pink);
-}
-
 .item-card {
   padding: calc(var(--padding-primary) / 2) calc(var(--padding-primary) / 4);
   background: var(--light-gray);
