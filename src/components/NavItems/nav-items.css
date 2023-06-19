@@ -1,5 +1,5 @@
 nav .nav-link {
-  color: #666;
+  color: var(--dark-text);
   line-height: 30px;
   font-size: 14px;
 }

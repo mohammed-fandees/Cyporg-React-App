@@ -16,9 +16,7 @@ function Main() {
               </div>
             </div>
           </div>
-          <MostPopular>
-
-          </MostPopular>
+          <MostPopular />
         </Container>
       </div>
     </main>
