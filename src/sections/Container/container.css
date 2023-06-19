@@ -1,13 +1,12 @@
-.page-content {
+.main-container {
   background: var(--light-gray);
-  padding: 30px;
+  padding: calc(var(--padding-primary) / 2);
 }
 
 @media (min-width: 768px) {
-  .page-content {
-    padding: 60px;
+  .main-container {
+    padding: var(--padding-primary);
   }
-  
 }
 
 
