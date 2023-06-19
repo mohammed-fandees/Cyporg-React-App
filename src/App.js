@@ -1,4 +1,4 @@
-import {Header, Main, Footer} from "./sections/index";
+import {Header, Main} from "./sections/index";
 
 import "./master.css"
 
@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
