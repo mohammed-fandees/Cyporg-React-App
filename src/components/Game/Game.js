@@ -1,6 +1,5 @@
 import "./game.css";
 
-import { GamesLibraryData } from "../../data/GamesLibraryData";
 import { MainButton, GameMainDetails } from "../../components/index";
 import { OtherDetails } from "../GameMainDetails/GameMainDetails";
 
