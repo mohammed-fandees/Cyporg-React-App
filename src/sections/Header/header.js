@@ -7,7 +7,7 @@ function Header() {
 
   const navLinks = NavbarData.map(link => {
     let image;
-    link.img? image = <img src={link.img_url} className="img-fluid rounded-pill ms-1" /> : image = "";
+    link.img? image = <img src={link.img_url} className="img-fluid rounded-pill ms-1" alt="profile" /> : image = "";
 
     return(
       <NavItem key={link.id} reference={link.reference} class={link.class}>{link.content}{image}</NavItem>
@@ -16,7 +16,9 @@ function Header() {
   return(
     <nav className="navbar navbar-expand-lg py-3">
       <div className="container">
-        <a className="navbar-brand me-1 me-xl-5" href="#"><img className="me-0 me-xl-5"  src={logo}></img></a>
+        <a className="navbar-brand me-1 me-xl-5" href="/">
+          <img className="me-0 me-xl-5" alt="logo" src={logo} />
+        </a>
         <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <i className="bi bi-list text-white"></i>
