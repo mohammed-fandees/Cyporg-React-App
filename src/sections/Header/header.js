@@ -1,11 +1,18 @@
 import logo from "../../assets/imgs/logo.png";
-import profile from "../../assets/imgs/profile-header.jpg"
-
-import NavItems from "../../components/NavItems/NavItems";
-
 import "./header.css";
+import NavItem from "../../components/NavItems/NavItems";
+import { NavbarData } from "../../data/NavbarData";
 
 function Header() {
+
+  const navLinks = NavbarData.map(link => {
+    let image;
+    link.img? image = <img src={link.img_url} className="img-fluid rounded-pill ms-1" /> : image = "";
+
+    return(
+      <NavItem key={link.id} reference={link.reference} class={link.class}>{link.content}{image}</NavItem>
+    );
+  })
   return(
     <nav className="navbar navbar-expand-lg py-3">
       <div className="container">
@@ -16,11 +23,7 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <NavItems direct="#" customClass="active">Home</NavItems>
-            <NavItems direct="#">Browse</NavItems>
-            <NavItems direct="#">Details</NavItems>
-            <NavItems direct="#">Streams</NavItems>
-            <NavItems direct="#" customClass="rounded-pill profile">Profile <img className="img-flued rounded-pill ms-1" src={profile} /></NavItems>
+            {navLinks}
           </ul>
         </div>
       </div>
