@@ -2,6 +2,7 @@ import "./card.css";
 
 import { FaStar } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
+import GameMainDetails from "../GameMainDetails/GameMainDetails";
 
 export default function Card(props) {
   return (
@@ -11,10 +12,7 @@ export default function Card(props) {
           <img className="img-fluid" src={props.img} />
         </div>
         <div className="text mt-3 d-flex justify-content-between">
-          <h4 className="text-capitalize">
-            {props.name}
-            <span className="mt-2 fw-normal d-block">{props.type}</span>
-          </h4>
+          <GameMainDetails name={props.name} type={props.type} />
           <ul>
             <li>
               <FaStar className="star" /> {props.rate}
