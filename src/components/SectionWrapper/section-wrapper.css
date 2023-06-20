@@ -1,0 +1,5 @@
+.section-wrapper {
+  background: var(--dark-gray);
+  padding: calc(var(--padding-primary) / 2);
+  color: #fff;
+}
