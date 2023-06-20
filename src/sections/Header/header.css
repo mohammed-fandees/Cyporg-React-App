@@ -34,7 +34,7 @@ nav .profile img {
     background: var(--light-gray);
   }
   
-  nav .profile:hover {
+  nav a.profile:hover {
     background: var(--pink);
     color: #fff !important;
   }
