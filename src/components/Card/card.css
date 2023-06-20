@@ -1,3 +1,8 @@
+.item-card {
+  padding: calc(var(--padding-primary) / 2) calc(var(--padding-primary) / 4);
+  background: var(--light-gray);
+}
+
 h4 {
   font-size: 15px;
 }

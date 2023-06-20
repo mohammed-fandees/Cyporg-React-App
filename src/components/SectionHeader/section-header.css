@@ -1,3 +1,13 @@
+.section-header h4 {
+  font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  .section-header h4 {
+    font-size: 34px;
+  }  
+}
+
 .section-header h4 em {
   font-style: normal;
   color: var(--pink);

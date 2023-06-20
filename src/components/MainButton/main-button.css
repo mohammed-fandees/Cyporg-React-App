@@ -9,3 +9,13 @@
   background: #fff;
   color: var(--pink) !important;
 }
+
+.second-btn {
+  border: 1px solid var(--pink);
+  background: transparent;
+}
+
+.second-btn:hover {
+  color: var(--pink) !important;
+  background: transparent;
+}

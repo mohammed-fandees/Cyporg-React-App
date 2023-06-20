@@ -12,7 +12,7 @@ export default function Card(props) {
         </div>
         <div className="text mt-3 d-flex justify-content-between">
           <h4 className="text-capitalize">
-            {props.name}{" "}
+            {props.name}
             <span className="mt-2 fw-normal d-block">{props.type}</span>
           </h4>
           <ul>
