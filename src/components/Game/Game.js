@@ -29,7 +29,7 @@ export default function Game(props) {
       <ul className="row d-flex align-items-center">
         <li className="col-lg-2 col-md-6 col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-3 mt-lg-0">
           <div className="image overflow-hidden rounded-4">
-            <img className="img-fluid" src={props.img} />
+            <img className="img-fluid" alt="game-img" src={props.img} />
           </div>
         </li>
         <li className="col-lg-2 col-md-6 col-sm-6 mt-3 mt-lg-0 text-center text-md-start">
