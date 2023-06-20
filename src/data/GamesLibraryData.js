@@ -28,6 +28,6 @@ export const GamesLibraryData = [
     img: img3,
     date_added: "21/04/2036",
     hours_played: "892 H 14 Mins",
-    state: false,
+    state: true,
   },
 ];

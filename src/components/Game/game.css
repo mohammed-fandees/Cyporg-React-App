@@ -6,3 +6,10 @@
   width: 80px;
   height: 80px;
 }
+
+.installed,
+.installed:hover {
+  border-color: var(--gray);
+  color: var(--gray) !important;
+  
+}

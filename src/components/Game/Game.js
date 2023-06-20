@@ -7,10 +7,23 @@ import { OtherDetails } from "../GameMainDetails/GameMainDetails";
 
 export default function Game(props) {
   
-  let gameState;
-  GamesLibraryData.map(game => {
-    gameState = game.state? "installed" : "not installed";
-  });
+  
+  let gameState = props.state, 
+    state, 
+    mode;
+  
+  if (gameState) {
+    state = "installed";
+    mode = "installed";
+  } else {
+    state = "not installed";
+    mode = "install"
+  }
+
+  // gameState? state = "installed" : state = "not installed";
+
+
+  let item = <OtherDetails value={state}>currently</OtherDetails>
   
   return (
     <div className="game-item mb-3 pb-3">
@@ -25,9 +38,10 @@ export default function Game(props) {
         </li>
         <OtherDetails value={props.date_added}>date added</OtherDetails>
         <OtherDetails value={props.hours_played}>hours played</OtherDetails>
-        <OtherDetails value={gameState}>currently</OtherDetails>
+        {/* <OtherDetails value={gameState}>currently</OtherDetails> */}
+        {item}
         <li className="col-lg-2 col-md-6 col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-3 mt-lg-0">
-          <MainButton class="second-btn d-block text-capitalize" reference="#">install</MainButton>
+          <MainButton class={`second-btn d-block text-capitalize ${mode}`} reference="#">{mode}</MainButton>
         </li>
       </ul>
     </div>

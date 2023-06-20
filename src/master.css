@@ -4,7 +4,8 @@
   --dark-gray: #1f2122;
   --light-gray: #27292a;
   --pink: #ec6090;
-  --dark-text: #666;
+  --gray: #666;
+  --dark-text: var(--gray);
   --padding-primary: 60px;
   --padding-extra: 80px;
 }
