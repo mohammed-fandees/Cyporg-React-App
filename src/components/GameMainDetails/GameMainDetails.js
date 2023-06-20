@@ -8,3 +8,17 @@ export default function GameMainDetails(props) {
     </h4>
   )
 }
+
+
+function OtherDetails(props) {
+  return(
+    <li className="col-lg-2 col-md-6 col-sm-6 mt-3 mt-lg-0 text-center text-md-start">
+    <h4 className="text-capitalize">
+      {props.children}
+      <span className="mt-2 fw-normal d-block">{props.value}</span>
+    </h4>
+  </li>
+  );
+}
+
+export { OtherDetails };

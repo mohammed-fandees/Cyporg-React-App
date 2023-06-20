@@ -2,7 +2,7 @@ import "./game.css";
 
 import { GamesLibraryData } from "../../data/GamesLibraryData";
 import { MainButton, GameMainDetails } from "../../components/index";
-
+import { OtherDetails } from "../GameMainDetails/GameMainDetails";
 
 
 export default function Game(props) {
@@ -23,25 +23,9 @@ export default function Game(props) {
         <li className="col-lg-2 col-md-6 col-sm-6 mt-3 mt-lg-0 text-center text-md-start">
           <GameMainDetails name={props.name} type={props.type} />
         </li>
-
-        <li className="col-lg-2 col-md-6 col-sm-6 mt-3 mt-lg-0 text-center text-md-start">
-          <h4 className="text-capitalize">
-            date added
-            <span className="mt-2 fw-normal d-block">{props.date_added}</span>
-          </h4>
-        </li>
-        <li className="col-lg-2 col-md-6 col-sm-6 mt-3 mt-lg-0 text-center text-md-start">
-          <h4 className="text-capitalize">
-            hours played
-            <span className="mt-2 fw-normal d-block">{props.hours_played}</span>
-          </h4>
-        </li>
-        <li className="col-lg-2 col-md-6 col-sm-6 mt-3 mt-lg-0 text-center text-md-start">
-          <h4 className="text-capitalize">
-            currently
-            <span className="mt-2 fw-normal d-block">{gameState}</span>
-          </h4>
-        </li>
+        <OtherDetails value={props.date_added}>date added</OtherDetails>
+        <OtherDetails value={props.hours_played}>hours played</OtherDetails>
+        <OtherDetails value={gameState}>currently</OtherDetails>
         <li className="col-lg-2 col-md-6 col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-3 mt-lg-0">
           <MainButton class="second-btn d-block text-capitalize" reference="#">install</MainButton>
         </li>
