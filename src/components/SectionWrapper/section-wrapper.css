@@ -3,3 +3,13 @@
   padding: calc(var(--padding-primary) / 2);
   color: #fff;
 }
+
+.section-wrapper-button {
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}

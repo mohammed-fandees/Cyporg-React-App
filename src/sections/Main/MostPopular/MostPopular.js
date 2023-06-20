@@ -8,7 +8,7 @@ export default function MonstPopular() {
   });
 
   return(
-    <SectionWrapper>
+    <SectionWrapper button="discover popular">
       <SectionHeader title="most popular" subtitle="right now" />
       <div className="row popular-items">
         {cards}

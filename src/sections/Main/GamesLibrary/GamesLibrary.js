@@ -11,7 +11,7 @@ export default function GamesLibrary() {
   });
   
   return (
-    <SectionWrapper>
+    <SectionWrapper button="view your library">
       <SectionHeader title="your gaming" subtitle="library" />
       {games}
     </SectionWrapper>
