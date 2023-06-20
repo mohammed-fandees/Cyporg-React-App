@@ -1,8 +1,8 @@
 import "./home.css"
-import { Main } from "../../sections/index"
+import { HomeContent } from "../../sections/index"
 
 export default function Home() {
   return (
-    <Main />
+    <HomeContent />
   )
 }

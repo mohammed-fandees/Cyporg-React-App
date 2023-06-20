@@ -1,8 +1,8 @@
-import "./main.css";
+import "./home-content.css";
 import { MainButton } from "../../components/index";
 import { Container, MostPopular, GamesLibrary } from "../index";
 
-export default function Main() {
+export default function HomeContent() {
   return(
     <main>
       <div className="container">
