@@ -1,0 +1,13 @@
+.browse .game-item {
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.download-button {
+  height: 46px;
+  width: 46px;
+  background: var(--light-gray);
+}
+
+.download-button svg {
+  color: var(--pink);
+}

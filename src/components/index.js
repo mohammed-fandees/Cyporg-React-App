@@ -10,3 +10,7 @@ export { default as PlayButton } from "./PlayButton/PlayButton";
 export { default as SideDetails } from "./SideDetails/SideDetails";
 export { default as DetailsImages } from "./DetailsImages/DetailsImages";
 export { default as RelatedGames } from "./RelatedGames/RelatedGames";
+
+export { default as SlideCard } from "./SlideCard/SlideCard";
+export { default as TopDownloadedGames } from "./TopDownloadedGames/TopDownloadedGames";
+export { default as ServicesCards } from "./ServicesCards/ServicesCards";

@@ -1,0 +1,23 @@
+.streaming {
+  background: var(--light-gray);
+  white-space: nowrap;
+  opacity: .9;
+  color: var(--pink);
+  font-size: 12px;
+  left: 50%;
+  bottom: -200px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+}
+
+.browse .card-img:hover .streaming {
+  bottom: 15px;
+}

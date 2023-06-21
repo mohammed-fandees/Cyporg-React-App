@@ -1,0 +1,18 @@
+
+.browse .card {
+  padding: 30px;
+  background: var(--light-gray);
+  border-color: #444 !important;
+}
+.browse .card .icon {
+  width: 60px;
+  height: 60px;
+}
+
+.browse .card p {
+  line-height: 30px;
+  font-size: 15px !important;
+  color: var(--dark-text);
+}
+
+.browse .card {}
