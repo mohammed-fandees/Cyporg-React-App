@@ -1,7 +1,7 @@
 import "./games-library.css";
 import { SectionHeader, SectionWrapper } from "../../index";
 import { Game } from "../../../components/index";
-import { GamesLibraryData } from "../../../data/GamesLibraryData";
+import { GamesLibraryData } from "../../../data/index";
 export default function GamesLibrary() {
   const games = GamesLibraryData.map(game => {
     return (

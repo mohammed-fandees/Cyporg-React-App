@@ -1,7 +1,7 @@
 import logo from "../../assets/imgs/logo.png";
 import "./header.css";
 import NavItem from "../../components/NavItems/NavItems";
-import { NavbarData } from "../../data/NavbarData";
+import { NavbarData } from "../../data/index";
 
 function Header() {
 

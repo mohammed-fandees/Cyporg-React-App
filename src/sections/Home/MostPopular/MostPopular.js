@@ -1,6 +1,6 @@
 import "./most-popular.css";
 import { Card, SectionHeader, SectionWrapper } from "../../index";
-import MostPopularData from "../../../data/MostPopularData";
+import { MostPopularData }from "../../../data/index";
 
 export default function MonstPopular() {
   const cards = MostPopularData.map(card => {
