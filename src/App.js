@@ -1,7 +1,7 @@
 import { BrowserRouter as Router , Route, Routes } from "react-router-dom";
 import {Header, Footer} from "./sections/index";
-import { Home, Browse } from "./Routes";
-import "./master.css"
+import { Home, Browse, Details } from "./Routes/index";
+import "./master.css";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/browse" element={<Browse />} />
+        <Route path="/details" element={<Details />} />
       </Routes>
       <Footer />
     </Router>
