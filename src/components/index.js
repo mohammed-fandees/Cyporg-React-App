@@ -6,3 +6,6 @@ export { All } from "./GameMainDetails/GameMainDetails";
 export { Icon } from "./GameMainDetails/GameMainDetails";
 
 export { default as PlayButton } from "./PlayButton/PlayButton";
+export { default as SideDetails } from "./SideDetails/SideDetails";
+export { default as DetailsImages } from "./DetailsImages/DetailsImages";
+export { default as RelatedGames } from "./RelatedGames/RelatedGames";
