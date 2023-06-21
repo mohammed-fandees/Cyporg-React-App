@@ -1,8 +1,5 @@
 import "./card.css";
-
-import { FaStar } from "react-icons/fa";
-import { FaDownload } from "react-icons/fa";
-import GameMainDetails from "../GameMainDetails/GameMainDetails";
+import { GameMainDetails, All } from "../index";
 
 export default function Card(props) {
   return (
@@ -13,14 +10,7 @@ export default function Card(props) {
         </div>
         <div className="text mt-3 d-flex justify-content-between">
           <GameMainDetails name={props.name} type={props.type} />
-          <ul>
-            <li>
-              <FaStar className="star" /> {props.rate}
-            </li>
-            <li>
-              <FaDownload className="download" /> {props.downloads}M
-            </li>
-          </ul>
+          <All rate={props.rate} downloads={props.downloads}/>
         </div>
       </div>
     </div>
