@@ -1,0 +1,16 @@
+.play-button {
+  height: 46px;
+  width: 46px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.play-button svg {
+  color: var(--pink);
+  margin-left: 4px;
+}
