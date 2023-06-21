@@ -4,3 +4,6 @@ export { NavbarData } from "./NavbarData";
 export { SideDetailsData } from "./SideDetailsData";
 export { DetailsImagesData } from "./DetailsImagesData";
 export { RelatedGamesData } from "./RelatedGamesData";
+export { SlideCardData } from "./SlideCardData";
+export { TopDownloadedGamesData } from "./TopDownloadedGamesData";
+export { ServicesCardsData } from "./ServicesCardsData";
