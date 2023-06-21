@@ -2,7 +2,7 @@ import "./game-main-details.css";
 import { FaStar } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import { FaGamepad } from "react-icons/fa";
-// import { BiSolidServer } from "react-icons/bi";
+import { FaServer } from "react-icons/fa";
 
 export default function GameMainDetails(props) {
   return (
@@ -32,8 +32,7 @@ function Icon(props) {
   if(props.type === "star") icon = <FaStar className="star mb-1" />;
   else if (props.type === "download") icon = <FaDownload className="download mb-1" />;
   else if (props.type === "gamepad") icon = <FaGamepad className="gamepad mb-1" />;
-  // else if (props.type === "server") icon = <BiSolidServer className="server mb-1" />;
-  // else "";
+  else if (props.type === "server") icon = <FaServer className="server mb-1" />;
 
   return(
     <>
@@ -45,7 +44,7 @@ function Icon(props) {
 function All(props) {
   return(
     <ul>
-      <li className="mb-1">
+      <li className="mb-">
         <Icon type="star" /> {props.rate}
       </li>
       <li>
