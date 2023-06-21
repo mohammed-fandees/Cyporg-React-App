@@ -1,0 +1,14 @@
+.owl-nav svg {
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.browse .row .section-wrapper {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 991px) {
+  .browse .row:first-of-type .section-wrapper:last-of-type {
+    margin-top: 24px !important;
+  }
+}
