@@ -6,3 +6,33 @@
   background: var(--light-gray) !important;
   margin-top: 0 !important;
 }
+
+.section-wrapper-card h4 {
+  margin: 0 !important;
+}
+
+.section-wrapper-card ul li svg {
+  font-size: 16px !important;
+}
+
+.column:last-of-type .section-wrapper-card ul li svg {
+  margin-bottom: 10px !important;
+}
+
+.section-wrapper-card ul li:not(:first-of-type) svg {
+  color: var(--pink);
+}
+
+.section-wrapper p {
+  color: var(--dark-text);
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.section-wrapper p a {
+  color: #ccc;
+}
+
+.section-wrapper p a:hover {
+  color: #f1998e;
+}
