@@ -43,8 +43,8 @@ function Icon(props) {
 
 function All(props) {
   return(
-    <ul>
-      <li className="mb-">
+    <ul className={`${props.className} flex-row justify-content-between`}>
+      <li className="mb-1 me-2">
         <Icon type="star" /> {props.rate}
       </li>
       <li>

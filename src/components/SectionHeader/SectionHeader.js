@@ -2,11 +2,12 @@ import "./section-header.css";
 
 export default function SectionHeader(props) {
   return (
-    <div className="section-header mb-4">
+    <div className={`section-header mb-4 ${props.class}`}>
       <h4 className="fw-bolder text-capitalize">
         <span className="text-decoration-underline text-white">{props.title}</span>
         <em className="text-decoration-none"> {props.subtitle}</em>
       </h4>
+      {props.children}
     </div>
   );
 }
