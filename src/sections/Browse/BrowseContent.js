@@ -1,7 +1,7 @@
 import "./browse-content.css";
 import { Container, SectionWrapper } from "../index";
-import { MainButton, SectionHeader, SlideCard, TopDownloadedGames, ServicesCards } from "../../components/index";
-import { SlideCardData, TopDownloadedGamesData, ServicesCardsData } from "../../data/index";
+import { MainButton, SectionHeader, SlideCard, TopDownloadedGames, ServicesCards, LiveStreams } from "../../components/index";
+import { SlideCardData, TopDownloadedGamesData, ServicesCardsData, LiveStreamsData } from "../../data/index";
 import { MdOutlineArrowBackIos } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 
@@ -17,6 +17,11 @@ export default function BrowseContent() {
 
   let cards = ServicesCardsData.map(card => {
     return <ServicesCards key={card.id} img={card.img_url} alt={card.alt} title={card.title} text={card.text} />
+  });
+
+  let streams = LiveStreamsData.map(stream => {
+    return <LiveStreams key={stream.id} img={stream.img_url} userImg={stream.userImg} alt={stream.alt} userAlt={stream.userAlt} 
+          views={stream.views} gameName={stream.gameName} userName={stream.userName} desc={stream.desc} />
   });
 
   return (
@@ -56,7 +61,7 @@ export default function BrowseContent() {
           <SectionWrapper button="discover all streams">
             <SectionHeader title="Most Popular" subtitle=" live streams" />
             <div className="row">
-              
+              {streams}
             </div>
           </SectionWrapper>
         </Container>
