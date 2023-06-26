@@ -14,3 +14,6 @@ export { default as RelatedGames } from "./RelatedGames/RelatedGames";
 export { default as SlideCard } from "./SlideCard/SlideCard";
 export { default as TopDownloadedGames } from "./TopDownloadedGames/TopDownloadedGames";
 export { default as ServicesCards } from "./ServicesCards/ServicesCards";
+export { default as LiveStreams } from "./LiveStreams/LiveStreams";
+export { default as StreamerName } from "./StreamerName/StreamerName";
+export { default as TopStreamsers } from "./TopStreamsers/TopStreamsers";
