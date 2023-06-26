@@ -10,6 +10,10 @@
   --padding-extra: 80px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--dark-gray);
