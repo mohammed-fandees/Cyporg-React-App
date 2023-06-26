@@ -1,0 +1,7 @@
+.streams .row:first-of-type .section-wrapper {
+  margin-top: 0 !important;
+}
+
+.top-streamers {
+  max-height: 400px;
+}
