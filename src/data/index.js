@@ -7,3 +7,6 @@ export { RelatedGamesData } from "./RelatedGamesData";
 export { SlideCardData } from "./SlideCardData";
 export { TopDownloadedGamesData } from "./TopDownloadedGamesData";
 export { ServicesCardsData } from "./ServicesCardsData";
+export { LiveStreamsData } from "./LiveStreamsData";
+export { TopStreamersData } from "./TopStreamersData";
+export { PopularLiveStreamsData } from "./PopularLiveStreamsData";
