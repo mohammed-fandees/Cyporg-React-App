@@ -1,0 +1,8 @@
+.clip span {
+  font-size: 14px;
+}
+
+.clip span svg {
+  color: var(--pink);
+  margin-right: 2px;
+}

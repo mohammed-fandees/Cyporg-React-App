@@ -1,0 +1,14 @@
+.profile .profile-details li {
+  color: var(--gray);
+}
+
+.profile .profile-details li:not(:last-of-type) {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.profile .profile-details li span {
+  color: var(--pink);
+  float: right;
+}

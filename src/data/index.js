@@ -10,3 +10,6 @@ export { ServicesCardsData } from "./ServicesCardsData";
 export { LiveStreamsData } from "./LiveStreamsData";
 export { TopStreamersData } from "./TopStreamersData";
 export { PopularLiveStreamsData } from "./PopularLiveStreamsData";
+export { ProfileDetailsData } from "./ProfileDetailsData";
+export { ClipsData } from "./ClipsData";
+export { MainGamesLibraryData } from "./MainGamesLibraryData";
