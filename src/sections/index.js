@@ -11,3 +11,4 @@ export { default as GamesLibrary } from "../sections/Home/GamesLibrary/GamesLibr
 export { default as BrowseContent } from "./Browse/BrowseContent";
 export { default as DetailsContent } from "./Details/DetailsContent";
 export { default as StreamsContent } from "./Streams/StreamsContent";
+export { default as ProfileContent } from "./Profile/ProfileContent";

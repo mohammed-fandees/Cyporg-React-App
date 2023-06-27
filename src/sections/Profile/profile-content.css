@@ -1,0 +1,22 @@
+.profile .section-wrapper:first-of-type {
+  margin-top: 0 !important;
+}
+
+.profile .state:hover {
+  background: var(--pink);
+  color: #fff !important;
+}
+
+.profile p {
+  color: var(--gray);
+  line-height: 30px;
+}
+
+.profile .profile-details {
+  padding: 30px;
+  background: var(--light-gray);
+}
+
+.profile hr {
+  border-top: 2px solid var(--gray);
+}
